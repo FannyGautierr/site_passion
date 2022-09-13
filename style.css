@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: avenir;
-    list-style: none;
+    
     text-decoration: none;
+}
+a{
+    color: inherit;
 }
 .navbar{
     display: flex;
@@ -14,6 +17,8 @@
     padding: 10px;
     height: 90px;
     align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
    
 }
 .navigation{
@@ -21,4 +26,44 @@
     align-items: center;
     gap: 20px;
 }
+.section{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 
+margin: 20px;
+padding: 20px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:40px
+}
+.galerie{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.imggalerie{
+    width: 40%;
+    animation: moveletruc 4s both infinite;
+    transition: ease-in-out;
+}
+
+@keyframes moveletruc {
+    
+    50%{
+        transform: translateX(-200px);
+    }100%{
+        transform: translateX(0px);
+    }
+}
+
+
+.listedeTruc{
+    list-style: disc;
+}
