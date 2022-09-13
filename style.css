@@ -34,7 +34,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
- text-decoration: none;
+    text-decoration: none;
 }
 .section{
     background: rgba( 255, 255, 255, 0.25 );
@@ -92,5 +92,12 @@ footer{
 }
 .navigation:hover{
    text-decoration: underline;
+}
+.lesTweets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
 }
 
