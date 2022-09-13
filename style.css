@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: avenir;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #1A1A1A;
+    color: white;
+    padding: 10px;
+    height: 90px;
+    align-items: center;
+   
+}
+.navigation{
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
