@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: avenir;
     
-    text-decoration: none;
+    
 }
 a{
     color: inherit;
@@ -19,12 +19,14 @@ a{
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
+    text-decoration: none;
    
 }
 .navigation{
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
+ text-decoration: none;
 }
 .section{
     background: rgba( 255, 255, 255, 0.25 );
@@ -76,4 +78,10 @@ footer{
     justify-content: flex-end;
     align-items: flex-end;
 
+}
+.titrePage{
+    margin-left: -60px;
+}
+.navigation:hover{
+   text-decoration: underline;
 }
