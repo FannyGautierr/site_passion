@@ -9,6 +9,14 @@
 a{
     color: inherit;
 }
+p{
+    width: 70%;
+    text-align: center;
+}
+body{
+    background-image: url(img/bg-boburn.jpeg);
+    background-size: contain;
+}
 .navbar{
     display: flex;
     flex-direction: row;
@@ -85,3 +93,4 @@ footer{
 .navigation:hover{
    text-decoration: underline;
 }
+
