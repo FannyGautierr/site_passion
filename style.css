@@ -101,3 +101,10 @@ footer{
     gap: 20px;
 }
 
+@media screen and (max-width: 800px) {
+    .lesTweets{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
